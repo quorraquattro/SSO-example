@@ -1,0 +1,16 @@
+﻿@model SSOapp2.Models.Index2Vm
+@{
+    ViewBag.Title = "SSO app 2";
+}
+
+<h2>SSO app 2</h2>
+
+@if (Model.IsLoginCookieExists)
+{
+    @Model.UserName
+    <span>, good job with loggin in!</span>
+}
+else
+{
+    <p>Dude, you need to login!</p>
+}

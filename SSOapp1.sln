@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOapp1", "SSOapp1\SSOapp1.csproj", "{3A41819E-41F6-4027-A326-69AEB4B8C22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOapp2", "SSOapp2\SSOapp2.csproj", "{3FA19ECE-C8AE-4BA1-AB7E-2F72CCF780AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A41819E-41F6-4027-A326-69AEB4B8C22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A41819E-41F6-4027-A326-69AEB4B8C22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A41819E-41F6-4027-A326-69AEB4B8C22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A41819E-41F6-4027-A326-69AEB4B8C22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA19ECE-C8AE-4BA1-AB7E-2F72CCF780AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA19ECE-C8AE-4BA1-AB7E-2F72CCF780AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA19ECE-C8AE-4BA1-AB7E-2F72CCF780AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA19ECE-C8AE-4BA1-AB7E-2F72CCF780AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

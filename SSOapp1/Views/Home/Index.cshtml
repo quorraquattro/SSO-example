@@ -1,0 +1,45 @@
+﻿@using System.Web.UI.WebControls
+@using SSOapp1.Models
+@model IndexVm
+
+@{
+    ViewBag.Title = "Login";
+}
+
+@if (Model.IsLoginSuccessful)
+{
+    <h2>Login successfull</h2>
+    <a href="http://localhost:47858/Home/Index" target="_blank">you can use this 3-rd party app</a>
+}
+else
+{
+    using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <h2>Login</h2>
+         <table>
+             <tr>
+                 <td>
+                     user name: @Html.TextBoxFor(m => m.UserName)
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     password: @Html.TextBoxFor(m => m.Password)
+                 </td>
+                
+             </tr>
+             <tr>
+                 <td>
+                     <input type="submit" id="btnSave" value="Log in" >
+                 </td>
+             </tr>
+             @if (Model.UnsuccesfullAttemptToLogin)
+             {
+                 <tr><td><span style="color:red">keep trying to login</span> </td></tr>
+                 
+             }
+         </table>
+     }
+}
+
+
